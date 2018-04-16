@@ -16,6 +16,22 @@ h1 {
   	color:#666;
 }
 
+h2 {
+	margin-bottom:3rem;
+	font-family:sans-serif;
+	color:#666;
+	font-size: 6em;
+}
+
+a {
+	text-decoration: none;
+	color: #3571c8;
+}
+
+a:hover {
+	color: #F5D76E;
+}
+
 button {
 	position:relative;
 	border:0;
@@ -35,10 +51,10 @@ button,
 button:after,
 button:before {
 	padding:.6875rem 2rem;
-	-webkit-transition:-webkit-transform 1.0s,background-color .125s;
-	-moz-transition:-moz-transform 1.0s,background-color .125s;
-	-ms-transition:-ms-transform 1.0s,background-color .125s;
-	transition:transform 1.0s,background-color .125s;
+	-webkit-transition:-webkit-transform .75s,background-color .125s;
+	-moz-transition:-moz-transform .75s,background-color .125s;
+	-ms-transition:-ms-transform .75s,background-color .125s;
+	transition:transform .75s,background-color .125s;
 	-webkit-transform-style:preserve-3d;
 	-moz-transform-style:preserve-3d;
 	-ms-transform-style:preserve-3d;
@@ -72,11 +88,6 @@ button:after {
 	background-color:#999;
 	background-repeat:no-repeat;
 	background-position:center center;
-	background-image:url(data:image/gif;base64,R0lGODlhEAAQAPIAAJmZmf///7CwsOPj4////9fX18rKysPDwyH+GkNyZWF0ZWQgd2l0aCBhamF4bG9hZC5pbmZvACH5BAAKAAAAIf8LTkVUU0NBUEUyLjADAQAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQACgABACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkEAAoAAgAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkEAAoAAwAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkEAAoABAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQACgAFACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQACgAGACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAAKAAcALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==);
-	-webkit-transform:rotateX(1800deg);
-	-moz-transform:rotateX(1800deg);
-	-ms-transform:rotateX(1800deg);
-	transform:rotateX(1800deg);
 	content:'';
 }
 
