@@ -19,7 +19,7 @@ var loading = function(e) {
   setTimeout(function(){
     e.target.classList.remove('loading');
     e.target.removeAttribute('disabled');
-    document.getElementById('langy').innerHTML = `<a target="_blank" href=”http://www.google.com/search?q=${lang}”>${lang}</a>`;
+    document.getElementById('langy').innerHTML = `<a target="_blank" href="http://www.google.com/search?q=${lang}">${lang}</a>`;
   },1000);
 };
 
